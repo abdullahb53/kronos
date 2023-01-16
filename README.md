@@ -1,1 +1,1 @@
-"# kronos" 
+t1, t2 := kronos.Now().Turkish(time.Now())
