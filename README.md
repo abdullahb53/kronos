@@ -1,1 +1,1 @@
-t1, t2 := kronos.Now().Turkish(time.Now())
+kronos.Get() kronos.Now()
