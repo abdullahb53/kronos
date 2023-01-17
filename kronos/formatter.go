@@ -98,6 +98,9 @@ func (c *kronosInstance) English(t time.Time) (string, string, error) {
 	return resultMonthName, resultDayName, nil
 }
 
+// It gives you Month and Day string that is translated to 'Turkish'.
+//
+// (time.Time) -> Day String, Month String, err
 func (c *kronosInstance) Turkish(t time.Time) (string, string, error) {
 
 	Month := t.Month().String()
@@ -111,6 +114,9 @@ func (c *kronosInstance) Turkish(t time.Time) (string, string, error) {
 	return resultMonthName, resultDayName, nil
 }
 
+// It gives you Month and Day string that is translated to 'Deutsch'.
+//
+// (time.Time) -> Day String, Month String, err
 func (c *kronosInstance) Deutsch(t time.Time) (string, string, error) {
 
 	Month := t.Month().String()
