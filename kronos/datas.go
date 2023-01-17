@@ -52,6 +52,30 @@ func init() {
 			"Cuma",
 			"Cumartesi",
 		},
+		// Germany month and day
+		"DeutschMonth": {
+			"Januar",
+			"Februar",
+			"Marsch",
+			"April",
+			"Dürfen",
+			"Juni",
+			"Juli",
+			"August",
+			"September",
+			"Oktober",
+			"November",
+			"Dezember",
+		},
+		"DeutschDay": {
+			"Markt",
+			"Montag",
+			"Dienstag",
+			"Mittwoch",
+			"Donnerstag",
+			"Freitag",
+			"Samstag",
+		},
 	}
 	allCountries = &x
 
